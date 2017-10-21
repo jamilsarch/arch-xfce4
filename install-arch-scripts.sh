@@ -3,9 +3,9 @@
 
 ####Arch Linux Install Scripts Xfce4 Desktop Environment #######
 
-sudo systemctl enable dhcpcd
-sudo systemctl start dhcpcd
-sudo systemctl restart dhcpcd
+#sudo systemctl enable dhcpcd
+#sudo systemctl start dhcpcd
+#sudo systemctl restart dhcpcd
 sudo pacman -Syyu
 sudo pacman -S xorg
 sudo pacman -S xfce4 xfce4-goodies  
